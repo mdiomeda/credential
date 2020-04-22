@@ -14,9 +14,9 @@ The following guides illustrate how to use some features concretely:
 * /api/auth/signup and /api/user* should be authenticated.
 * /api/auth/signup should have superadmin rol.
 * In /credential/src/main/resources/DBScript are Postgres database script:
-	** credential_schema.sql has the credential schema.
-	** init_data.sql has the initial data for credential schema.
+	* credential_schema.sql has the credential schema.
+	* init_data.sql has the initial data for credential schema.
 * To sign in to credential service should run application and call POST method with: 
-	** URI localhost:8082/credential/api/auth/signin 
-	** username: mdiomeda
-	** password: credential2020
+	* URI localhost:8082/credential/api/auth/signin
+	* username: mdiomeda
+	* password: credential2020
