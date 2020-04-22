@@ -16,3 +16,7 @@ The following guides illustrate how to use some features concretely:
 * In /credential/src/main/resources/DBScript are Postgres database script:
 	** credential_schema.sql has the credential schema.
 	** init_data.sql has the initial data for credential schema.
+* To sign in to credential service should run application and call POST method with: 
+	** URI localhost:8082/credential/api/auth/signin 
+	** username: mdiomeda
+	** password: credential2020
